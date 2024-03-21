@@ -1,6 +1,6 @@
 {
-    "name": "JARVIS.",
-    "logo": "https://telegra.ph/file/83db3b7786ffa9948962b.jpg",
+    "name": "REAPER.",
+    "logo": "https://telegra.ph/file/60abdd0dac472c43a2e0b.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/doraemon890/Jarvis-X-spam",
+    "repository": "https://github.com/CenzoGod/Reaper-2.0",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
@@ -62,7 +62,7 @@
       },
       "CMD_HNDLR": {
         "description": "Custom command handler.",
-        "value": ".",
+        "value": "+",
         "required": false
       },
       "SUDO_USERS": {
