@@ -10,9 +10,9 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 
 # VALUES REQUIRED FOR JARVIS BOTS
-API_ID = 18136872
-API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
-CMD_HNDLR = getenv("CMD_HNDLR", default=".")
+API_ID = 28220433
+API_HASH = "2f3a3d05da52d6c25f8289d0c47d0a14"
+CMD_HNDLR = getenv("CMD_HNDLR", default="+")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
@@ -30,7 +30,7 @@ BOT_TOKEN10 = getenv("BOT_TOKEN10", default=None)
 SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="1983816571").split()))
 for x in FRIDAY:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="7157587567"))
+OWNER_ID = int(getenv("OWNER_ID", default="6663845789"))
 SUDO_USERS.append(OWNER_ID)
 
 
