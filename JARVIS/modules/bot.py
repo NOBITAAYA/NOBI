@@ -24,7 +24,7 @@ async def ping(e):
         jarvis = await e.reply(f"🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"[Reaper Is Ready To  ](https://t.me/ll_You_Are_Next_ll)[𝐅𝐔𝐂𝐊 𝐇𝐀𝐓𝐄𝐑𝐒 🥀](https://t.me/ll_You_Are_Next_ll)🤖\n» `{mp} ᴍꜱ`")
+        await jarvis.edit(f"[🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️ IS READY TO](https://t.me/Reaperx5)[REAP HATERS 💀](https://t.me/Reaperx5)💀\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -127,7 +127,7 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» BSDK SIRF JARVIS SUDO DE SKTA HAI...")
+        await event.reply("» BSDK SIRF REAPER SUDO DE SKTA HAI...")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
@@ -166,7 +166,7 @@ async def removesudo(event):
             await ok.edit(f"Removed sudo user: `{target}`")
             heroku_var["SUDO_USERS"] = new_sudo_users
     else:
-        await event.reply("Only Jarvis can remove sudo users.")
+        await event.reply("Only Reaper can remove sudo users.")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
