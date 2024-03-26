@@ -7,7 +7,7 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/ll_You_Are_Next_ll"><img src="https://telegra.ph/file/60abdd0dac472c43a2e0b.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/Reaperx5"><img src="https://telegra.ph/file/60abdd0dac472c43a2e0b.jpg" width="400"></a></p>
 
 
 ``⭐️ Thanks to everyone for using this op REAPER Robot. That is the greatest pleasure we have !``
@@ -27,12 +27,12 @@
 
 <details>
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
-<a href="https://t.me/ll_You_Are_Next_ll"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+<a href="https://t.me/Reaperx5"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 </details>
 <details>
 <summary><b>ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ💗🥀</b></summary>
 
-<a href="https://t.me/ll_You_Are_Next_ll"><img title="Telegram" src="https://img.shields.io/badge/JARVIS-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+<a href="https://t.me/Reaperx5"><img title="Telegram" src="https://img.shields.io/badge/JARVIS-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=totalkillers0@gmail.com"><img title="GMAIL" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://youtube.com/@fakecenzoff"><img title="Youtube" src="https://img.shields.io/badge/youtube-%230077B5.svg?&style=for-the-badge&logo=youtube&logoColor=white"></a>
 <a href="https://instagram.com/fakecenzo.yt"><img title="Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
