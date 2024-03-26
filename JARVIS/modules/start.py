@@ -8,8 +8,8 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• OWNER •", "https://t.me/ll_You_Are_Next_ll"),
-        Button.url("• SUPPORT •", "https://t.me/Fakecenzo_69")
+        Button.url("• OWNER •", "https://t.me/Reaperx5"),
+        Button.url("• SUPPORT •", "https://t.me/REAPER_SUPPORT")
     ],
     [
         Button.url("• REPO •", "https://github.com/CenzoGod/Reaper-2.0")
@@ -34,8 +34,8 @@ async def start(event):
         bot_name = ANNIE.first_name
         bot_id = ANNIE.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [REAPER](https://t.me/ll_You_Are_Next_ll)**\n\n"
-        TEXT += f"» **𝕽𝖊𝖆𝖕𝖊𝖗 :** `M 1.8.31`\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [REAPER](https://t.me/Reaperx5)**\n\n"
+        TEXT += f"» **🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️ :** `M 1.8.31`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
