@@ -24,7 +24,7 @@ async def ping(e):
         jarvis = await e.reply(f"🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"[🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️ IS READY TO](https://t.me/Reaperx5)[REAP HATERS 💀](https://t.me/Reaperx5)💀\n» `{mp} ᴍꜱ`")
+        await jarvis.edit(f"[𝐑ᴇᴀᴘᴇʀ ](https://t.me/REAPER_SUPPORT)[ 𝐒ᴜᴘᴘᴏʀᴛ](https://t.me/REAPER_SUPPORT) 💀\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» __Reaper Ka Ek Beta Aur Add Ho rha hai..__")
+        ok = await event.reply(f"» __Reaper Ka Ek Beta Aur Add Ho rha hai 💀..__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
