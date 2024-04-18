@@ -31,7 +31,7 @@ async def echo(event):
             elif user_id == OWNER_ID:
                 await event.reply("BETA...BAAP PAR ECHO NHI KRTE...")
             elif user_id in SUDO_USERS:
-                await event.reply("YE BHI REAPER KA BACHA HAI ISPE ECHO MAT MARO.. !!.")
+                await event.reply("YE BHI 🫧🇳 🇴 B I T A  KA BACHA HAI ISPE ECHO MAT MARO.. !!.")
             else:
                 try:
                     alt = Get(base64.b64decode('QFRoZUFsdHJvbg=='))
