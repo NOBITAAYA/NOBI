@@ -1,13 +1,13 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<h3><img  style="align-item" :"center" src="https://telegra.ph/file/60abdd0dac472c43a2e0b.jpg" width="80px" height="70%">
-   <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=620&lines=HEY+REAPER+HERE"></b></h3>
+<h3><img  style="align-item" :"https://telegra.ph/file/451182063e3670fa369d9.jpg" width="80px" height="70%">
+   <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=620&lines=HEY+NOBITA+PAPA+HEAR"></b></h3>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h1 align="center"><b>[⚡] 🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️ [⚡]</b></h1>
+<h1 align="center"><b>⚡🥀🔥🇳 🇴 B I T A🔥🥀⚡</b></h1>
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/Reaperx5"><img src="https://telegra.ph/file/60abdd0dac472c43a2e0b.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/Reaperx5"><img src="https://telegra.ph/file/451182063e3670fa369d9.jpg" width="400"></a></p>
 
 
 ``⭐️ Thanks to everyone for using this op REAPER Robot. That is the greatest pleasure we have !``
