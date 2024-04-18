@@ -42,14 +42,14 @@ async def logs(ANNIE):
         fetch = await ANNIE.reply(f"__Fetching Logs...__")
     
         with open("JARVISlogs.txt", "w") as logfile:
-            logfile.write("🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️ [ Bot Logs ]\n\n" + logs)
+            logfile.write("🏴‍☠️NOBITA🏴‍☠️ [ Bot Logs ]\n\n" + logs)
 
         end = datetime.now()
         ms = (end-start).seconds
         await asyncio.sleep(1)
 
         try:
-            await X1.send_file(ANNIE.chat_id, "JARVISlogs.txt", caption=f"⚡ **Reaper Bot Logs** ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
+            await X1.send_file(ANNIE.chat_id, "JARVISlogs.txt", caption=f"⚡ **NOBITA Bot Logs** ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
             await fetch.delete()
         except Exception as e:
             await fetch.edit(f"An Exception Occured!\n\n**ERROR:** {str(e)}")
