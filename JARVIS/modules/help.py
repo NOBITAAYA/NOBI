@@ -3,19 +3,19 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️ ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Reaperx5**"
+HELP_STRING = f"★ 🫧🇳 🇴 B I T A  ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @JUST_ME_NOBITA**"
 
 HELP_BUTTON = [
     [
-      Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-      Button.inline("• ʀᴀɪᴅ •", data="raid")
+      Button.inline("•🥀 ꜱᴘᴀᴍ 🥀 •", data="spam"),
+      Button.inline("•🥀 ʀᴀɪᴅ 🥀 •", data="raid")
     ],
     [
-      Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+      Button.inline("•🥀 ᴇxᴛʀᴀ 🥀•", data="extra")
     ],
     [
-      Button.url("• OWNER •", "https://t.me/Reaperx5"),
-      Button.url("• SUPPORT •", "https://t.me/REAPER_SUPPORT")
+      Button.url("•🦋 OWNER 🦋•", "https://t.me/MRATYUY"),
+      Button.url("•⚡ SUPPORT ⚡•", "https://t.me/MRATYUY")
     ]
   ]
 
@@ -45,7 +45,7 @@ async def help(event):
 extra_msg = f"""
 **» ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ:**
 
-𝗨𝘀𝗲𝗿𝗕𝗼𝘁: **ᴜꜱᴇʀʙᴏᴛ ᴄᴍᴅꜱ**
+𝗨𝘀𝗲𝗿𝗕𝗼𝘁🥀: **ᴜꜱᴇʀʙᴏᴛ ᴄᴍᴅꜱ**
   1) {hl}ping 
   2) {hl}reboot
   3) {hl}sudo <reply to user>  --> Owner Cmd
@@ -60,14 +60,14 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @Reaperx5**
+**© @MRATYUY**
 """
 
                  
 raid_msg = f"""
 **» ʀᴀɪᴅ ᴄᴏᴍᴍᴀɴᴅꜱ:**
 
-𝗥𝗮𝗶𝗱: **ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴᴅɪᴠɪᴅᴜᴀʟ ᴜꜱᴇʀ ꜰᴏʀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.**
+𝗥𝗮𝗶𝗱🥀: **ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴᴅɪᴠɪᴅᴜᴀʟ ᴜꜱᴇʀ ꜰᴏʀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.**
   1) {hl}raid <count> <username>
   2) {hl}raid <count> <reply to user>
 
@@ -92,13 +92,13 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @Reaperx5**
+**© @MRATYUY**
 """
 
 spam_msg = f"""
 **» ꜱᴘᴀᴍ ᴄᴏᴍᴍᴀɴᴅꜱ:**
 
-𝗦𝗽𝗮𝗺: **ꜱᴘᴀᴍꜱ ᴀ ᴍᴇꜱꜱᴀɢᴇ.**
+𝗦𝗽𝗮𝗺🥀: **ꜱᴘᴀᴍꜱ ᴀ ᴍᴇꜱꜱᴀɢᴇ.**
   1) {hl}spam <count> <message to spam> (you can reply any message if you want bot to reply that message and do spamming)
   2) {hl}spam <count> <replying any message>
 
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-** © @Reaperx5**
+** © @MRATYUY**
 """                     
            
            
@@ -136,13 +136,13 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• OWNER •", "https://t.me/Reaperx5"),
-                Button.url("• SUPPORT •", "https://t.me/REAPER_SUPPORT")
+                Button.url("• OWNER •", "https://t.me/MRATYUY"),
+                Button.url("• SUPPORT •", "https://t.me/MRATYUY")
               ]
             ]
           )
     else:
-        await event.answer("ᴘᴀʜʟᴇ 𝐑𝖊𝖆𝖕𝖊𝖗ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Reaperx5", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ GC ME JOIN HO KAR @JUST_ME_NOBITA SE  SUDO. LE LOO BBY 🥀⚡🔥", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("ᴘᴀʜʟᴇ 𝐑𝖊𝖆𝖕𝖊𝖗ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Reaperx5", cache_time=0, alert=True)
+        await event.answer("", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("ᴘᴀʜʟᴇ 𝐑𝖊𝖆𝖕𝖊𝖗ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Reaperx5", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ GC ME JOIN HO KAR @JUST_ME_NOBITA SE  SUDO. LE LOO BBY 🥀⚡🔥", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,5 +199,5 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("ᴘᴀʜʟᴇ 𝐑𝖊𝖆𝖕𝖊𝖗ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Reaperx5", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ GC ME JOIN HO KAR @JUST_ME_NOBITA SE  SUDO. LE LOO BBY 🥀⚡🔥", cache_time=0, alert=True)
 
