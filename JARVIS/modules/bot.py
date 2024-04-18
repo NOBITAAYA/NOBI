@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        jarvis = await e.reply(f"🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️")
+        jarvis = await e.reply(f"🫧🇳 🇴 B I T A")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"[𝐑ᴇᴀᴘᴇʀ ](https://t.me/REAPER_SUPPORT)[ 𝐒ᴜᴘᴘᴏʀᴛ](https://t.me/REAPER_SUPPORT) 💀\n» `{mp} ᴍꜱ`")
+        await jarvis.edit(f"ME IS 🫧🇳 🇴 B I T A  WHAT I CAN DO FOR YOU 🥀\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`BOT IS RESTARTING PLEASE WAIT.`")
+        await e.reply(f"`RUKO RUKO ATA HU MUTH MAAR KE SUDO LE LIYA NA ISS LIYE JANA PAD RAHA BE URR 🥀🔥⚡.`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» __Reaper Ka Ek Beta Aur Add Ho rha hai 💀..__")
+        ok = await event.reply(f"» __🫧🇳 🇴 B I T A NEWS MEMBER ADD HE HE AVV SAV KI GAND MARE GE 🥺  💀..__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -113,17 +113,17 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except:
-            await ok.edit("» BSDK...REPLY KRKE KAR !!")
+            await ok.edit("» BSDK... UFF YE TUMHARE BINA DIMAG KA KAAM  TAG KAR KE KAR BAHENCHOOD 🔥🔥 !!")
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"YE BHI Reaper KA HI BACCHA HAI.. !!")
+            await ok.edit(f"YE BHI 🫧🇳 🇴 B I T A KI ARMY HE YRR RAID MATT KAR NAHI USNE COMPLAIN KI TO GAND MAAR DENGE BSDK 🔥🥀⚡.. !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `ADD KAR DIYA HAI SUDO..BOT RESTART HO RHA HAI`")
+            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `YRR SUDO DENE KE BAAD AVV MUTH MARU GA THODA MOOD FRESH HO GA  FIR REST FIR ATA HU JAV TAK DEKH LO NA BABY 🔥🥀⚡`")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
@@ -143,7 +143,7 @@ async def removesudo(event):
     if event.sender_id == OWNER_ID:
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
-        ok = await event.reply(f"YE Reaper Ki Najayaz Aulad thi isiliye nikal diya💋...")
+        ok = await event.reply(f"YE 🫧🇳 🇴 B I T A Ki Najayaz Aulad thi isiliye nikal diya💋...")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -166,7 +166,7 @@ async def removesudo(event):
             await ok.edit(f"Removed sudo user: `{target}`")
             heroku_var["SUDO_USERS"] = new_sudo_users
     else:
-        await event.reply("Only Reaper can remove sudo users.")
+        await event.reply("WAH BOSDIKE WAH JISS THALI PE KHATA HE USSS THALI PE CHEED KAR TA BOSDIEK 🫧🇳 🇴 B I T A SUDO DE SAKTA HE NA 😂.")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
@@ -180,12 +180,12 @@ async def removesudo(event):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
 async def show_sudo_users(event):
     if event.sender_id == OWNER_ID:
-        sudo_users_list = "Reaper Ke Bacche hai ye:\n"
+        sudo_users_list = " 🫧🇳 🇴 B I T A  KII ARMY HE YRR :\n"
         for user_id in SUDO_USERS:
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("Only Reaper view the sudo users list.")
+        await event.reply("BOSDIKE 🫧🇳 🇴 B I T A HI SUDO LIST DEKH SAKTA HE 😂🥀🔥.")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%saddmultisudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%saddmultisudo(?: |$)(.*)" % hl))
@@ -202,7 +202,7 @@ async def addmultisudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"Adding new sudo users...")
+        ok = await event.reply(f"🫧🇳 🇴 B I T A KE ARMY ME SAMBHI HO GAYE HO USKE LIYE DHANYBAAD BABU🔥🥀⚡...")
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
         else:
@@ -231,4 +231,4 @@ async def addmultisudo(event):
         
         await ok.edit(f"Added {len(target_ids)} new sudo users.")
     elif event.sender_id in SUDO_USERS:
-        await event.reply("Only Reaper can add sudo users.")
+        await event.reply("LAND TERI MAA KA LAND  SUDO SIRF 🫧🇳 🇴 B I T A KA OWNER DEGA SAMJA MADARCHOD.")
