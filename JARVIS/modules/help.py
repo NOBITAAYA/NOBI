@@ -3,9 +3,9 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ ⚡🥀NOBITA🥀⚡ ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @JUST _ME_NOBITA**"
+HELP_STRING = f"★ 🫧🇳 🇴 B I T A :S ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @JUST_ME_NOBITA**"
 
-HELP_BUTTON = [
+START_BUTTON = [
     [
       Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
       Button.inline("• ʀᴀɪᴅ •", data="raid")
@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• OWNER •", "https://t.me/MRWTYUY"),
-      Button.url("• SUPPORT •", "https://t.me/MRATYUY")
+      Button.url("• OWNER •", "https://t.me/MRITYUY"),
+      Button.url("• SUPPORT •", "https://t.me/MRITYUY")
     ]
   ]
 
@@ -35,8 +35,8 @@ async def help(event):
         try:
           await event.client.send_file(event.chat_id,
               "https://telegra.ph/file/60abdd0dac472c43a2e0b.jpg",
-              caption=HELP_STRING,
-              buttons=HELP_BUTTON
+              caption=START_STRING,
+              buttons=START_BUTTON
               )
         except Exception as e:
             await event.client.send_message(event.chat_id, f"An Exception Occured!\n\n**ERROR:** {str(e)}")
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @MRQTYUY**
+**© @MRITYUY**
 """
 
                  
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @MRATYUY**
+**© @MRITYUY**
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-** © @MRATYUY**
+** © @MRITYUY**
 """                     
            
            
