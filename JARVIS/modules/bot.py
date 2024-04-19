@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`RUKO RUKO ATA HU MUTH MAAR KE SUDO LE LIYA NA ISS LIYE JANA PAD RAHA BE URR 🥀🔥⚡.`")
+        await e.reply(f"`🫧🇳 🇴 B I T A IS ON REST BABY🔥🥀.`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» __🫧🇳 🇴 B I T A NEWS MEMBER ADD HE HE AVV SAV KI GAND MARE GE 🥺  💀..__")
+        ok = await event.reply(f"» __🫧🇳 🇴 B I T A  :S ARMY LIST ME NEW MEMBER ⚡🥀..__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -127,7 +127,7 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» BSDK SIRF REAPER SUDO DE SKTA HAI...")
+        await event.reply("» BSDK SIRF 🫧🇳 🇴 B I T:S OWNER CAN GIVE SUDO ONLY...")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
