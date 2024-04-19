@@ -136,13 +136,13 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• OWNER •", "https://t.me/MRATYUY"),
-                Button.url("• SUPPORT •", "https://t.me/MRATYUY")
+                Button.url("• OWNER •", "https://t.me/MRITYUY"),
+                Button.url("• SUPPORT •", "https://t.me/MRITYUY")
               ]
             ]
           )
     else:
-        await event.answer("ᴘᴀʜʟᴇ NOBITA ⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @MRATYUY", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ NOBITA ⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @MRITYUY", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("ᴘᴀʜʟᴇ NOBITA ⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @MRWTYUY", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ NOBITA ⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @MRITYUY", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("ᴘᴀʜʟᴇ NOBITA ⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @MRQTYUY", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ NOBITA ⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @MRITYUY", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,5 +199,5 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("ᴘᴀʜʟᴇ NOBITA ⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @MRATYUY", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ NOBITA ⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @MR8TYUY", cache_time=0, alert=True)
 
