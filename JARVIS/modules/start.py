@@ -5,11 +5,11 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
+        Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="START")
     ],
     [
-        Button.url("• OWNER •", "https://t.me/MRATYUY"),
-        Button.url("• SUPPORT •", "https://t.me/MRATYUY")
+        Button.url("• OWNER •", "https://t.me/MRITYUY"),
+        Button.url("• SUPPORT •", "https://t.me/MRITYUY")
     ],
     [
         Button.url("• PAPA •", "@JUST_ME_NOBITA")
@@ -34,7 +34,7 @@ async def start(event):
         bot_name = ANNIE.first_name
         bot_id = ANNIE.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [NOBI](https://t.me/MRATYUY)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [NOBI](https://t.me/MRITYUY)**\n\n"
         TEXT += f"» **🥀NOBITA🥀 :** `M 1.8.31`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
